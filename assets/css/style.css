@@ -19,3 +19,10 @@
 
 
 /* Global styles */
+
+
+/* Navbar */
+
+.navbar-brand {
+  white-space: nowrap;
+}
