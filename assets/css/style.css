@@ -1,0 +1,21 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap');
+
+/* CSS Variables */
+
+:root {
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-electric-blue: #0077FF;
+  --color-charcoal-grey: #1A1A1A;
+
+  /* Optional extras for flexibility */
+  --color-text-primary: var(--color-white);
+  --color-text-secondary: #E0E0E0;
+  --color-bg-dark: var(--color-black);
+  --color-bg-light: var(--color-white);
+  --color-accent: var(--color-electric-blue);
+}
+
+
+/* Global styles */
