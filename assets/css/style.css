@@ -23,6 +23,18 @@ body {
   background-color: var(--color-accent);
 }
 
+/* Fonts to be used */
+h1,
+h2,
+h3 {
+  font-family: "Manrope", sans-serif;
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
+  color: #FFFFFF;
+}
+
 /* Navbar */
 
 .navbar-brand {
