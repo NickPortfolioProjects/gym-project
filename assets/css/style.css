@@ -44,3 +44,7 @@ p {
 .navbar-brand {
   white-space: nowrap;
 }
+
+#header {
+  padding-top: 57.15px;
+}
