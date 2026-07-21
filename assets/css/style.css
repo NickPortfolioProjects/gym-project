@@ -46,6 +46,12 @@ p {
   white-space: nowrap;
 }
 
+/* Header and Footer */
 #header {
   padding-top: 60.15px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
 }
