@@ -52,6 +52,9 @@ p {
 }
 
 #footer {
+  width: 100%;
   position: absolute;
   bottom: 0;
+  background-color: var(--color-bg-dark);
+  align-items: center;
 }
