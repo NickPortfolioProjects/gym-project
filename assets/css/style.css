@@ -19,7 +19,9 @@
 
 
 /* Global styles */
-
+body {
+  background-color: var(--color-accent);
+}
 
 /* Navbar */
 
