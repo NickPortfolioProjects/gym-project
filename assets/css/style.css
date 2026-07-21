@@ -1,26 +1,31 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap');
 
+
 /* CSS Variables */
 
 :root {
-  --color-black: #000000;
-  --color-white: #FFFFFF;
-  --color-electric-blue: #0077FF;
-  --color-charcoal-grey: #1A1A1A;
+  --color-charcoal: #1A1A1A;
+  --color-white: #FAFAFA;
+  --color-teal: #00C2A8;
+  --color-warm-grey: #E5E5E5;
+  --color-deep-blue: #0D1B2A;
 
-  /* Optional extras for flexibility */
   --color-text-primary: var(--color-white);
-  --color-text-secondary: #E0E0E0;
-  --color-bg-dark: var(--color-black);
+  --color-text-secondary: var(--color-warm-grey);
+  --color-bg-dark: var(--color-charcoal);
   --color-bg-light: var(--color-white);
-  --color-accent: var(--color-electric-blue);
+  --color-accent: var(--color-teal);
 }
+
 
 
 /* Global styles */
 body {
   background-color: var(--color-accent);
+  background: url("../images/mynor-castaneda.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 50%;
 }
 
 /* Fonts to be used for headings */
@@ -36,9 +41,9 @@ h5 {
 /* Paragraph fonts*/
 p {
   font-family: 'Manrope', sans-serif;
-  color: var(--color-bg-dark);
+  color: var(--color-warm-grey);
   width: 100%;
-  border: 2px solid var(--color-charcoal-grey);
+  border: 1px solid var(--color-charcoal-grey);
 }
 
 /* Navbar */
@@ -46,15 +51,24 @@ p {
   white-space: nowrap;
 }
 
+.navbar {
+  background-color: var(--color-teal) !important;
+}
+
+
 /* Header and Footer */
 #header {
   padding-top: 60.15px;
 }
 
 #footer {
+  height: 150px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: var(--color-bg-dark);
-  align-items: center;
+}
+
+#footer strong {
+  color:var(--color-white);
 }
