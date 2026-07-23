@@ -1,6 +1,12 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&display=swap');
 
+/* Asterisk wildcard overrides*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* CSS Variables */
 
@@ -25,8 +31,15 @@ body {
   background-color: var(--color-accent);
   background: url("../images/mynor-castaneda.jpg") no-repeat center center fixed;
   background-size: cover;
+<<<<<<< HEAD
   height: 600px;
   width: 100%;
+=======
+  min-height: auto; /* adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> fde162f808efef1323c58bef1ccc09c040ab3a04
 }
 
 /* Fonts to be used for headings */
@@ -60,6 +73,8 @@ p {
 /* Header and Footer */
 #header {
   padding-top: 60.15px;
+  display: flex;
+  margin: 7px 25px;
 }
 
 #footer {
